@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en-CA" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toronto EcoClean Solutions | Eco-Friendly Home & Office Cleaning Toronto</title>
+    <meta name="description" content="Top-rated eco-friendly home & office cleaning services in Greater Toronto Area (GTA). 100% non-toxic, pet-safe, fully insured, WSIB compliant & satisfaction guaranteed. Call (416) 555-0198.">
+    <meta name="keywords" content="Toronto home cleaning, eco friendly house cleaning GTA, deep cleaning Toronto, move out clean Toronto, commercial office cleaning Toronto, non toxic house cleaners">
+
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="Toronto EcoClean Solutions | Eco-Friendly Cleaning GTA">
+    <meta property="og:description" content="100% Non-toxic & Pet-Safe Home & Commercial Cleaning in Greater Toronto Area. Insured & WSIB Compliant.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:url" content="https://torontoecoclean.ca">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Fonts & Tailwind CSS CDN v3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        emerald: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            300: '#86efac',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Schema.org LocalBusiness JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Toronto EcoClean Solutions",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80",
+      "@id": "https://torontoecoclean.ca",
+      "url": "https://torontoecoclean.ca",
+      "telephone": "+1-416-555-0198",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "100 Queen St W",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "postalCode": "M5H 2N2",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "areaServed": ["Toronto", "Mississauga", "Vaughan", "Etobicoke", "North York", "Scarborough", "Markham"],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "254"
+      }
+    }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-700 selection:text-white flex flex-col min-h-screen">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-slate-900 text-slate-200 text-xs sm:text-sm font-medium py-2.5 px-4 text-center border-b border-emerald-500/20">
+        <div class="max-w-7xl mx-auto flex items-center justify-center space-x-2">
+            <span class="inline-block bg-emerald-500/20 text-emerald-400 font-bold px-2 py-0.5 rounded text-xs uppercase tracking-wider">Special Offer</span>
+            <span>🇨🇦 Greater Toronto Area Resident Discount: Save <strong>$25 CAD</strong> on your first deep clean! Use code <strong class="text-emerald-400">ECO25</strong></span>
+        </div>
+    </div>
+
+    <!-- Sticky Header Navigation -->
+    <header id="navbar" class="sticky top-0 z-40 bg-white transition-all duration-300 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="index.html" class="flex items-center space-x-3 group">
+                <div class="w-11 h-11 rounded-xl bg-emerald-700 text-white flex items-center justify-center shadow-md shadow-emerald-700/20 group-hover:bg-emerald-800 transition-colors">
+                    <i data-lucide="leaf" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold text-slate-900 tracking-tight block leading-none">Toronto EcoClean</span>
+                    <span class="text-xs font-semibold text-emerald-700 tracking-wider uppercase">Solutions</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+                <a href="index.html" class="text-emerald-700 border-b-2 border-emerald-700 py-1">Home</a>
+                <a href="services.html" class="hover:text-emerald-700 transition-colors py-1">Services</a>
+                <a href="about.html" class="hover:text-emerald-700 transition-colors py-1">About Us</a>
+                <a href="contact.html" class="hover:text-emerald-700 transition-colors py-1">Contact & Booking</a>
+            </nav>
+
+            <!-- Header Action CTAs -->
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="tel:4165550198" class="flex items-center space-x-2 text-sm font-bold text-slate-900 hover:text-emerald-700 transition-colors">
+                    <div class="w-8 h-8 rounded-full bg-emerald-50 text-emerald-700 flex items-center justify-center">
+                        <i data-lucide="phone" class="w-4 h-4"></i>
+                    </div>
+                    <span>(416) 555-0198</span>
+                </a>
+                <a href="contact.html" class="bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-sm px-5 py-2.5 rounded-xl shadow-lg shadow-emerald-700/25 transition-all transform hover:-translate-y-0.5">
+                    Get Free Quote
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="mobile-menu-btn" aria-label="Toggle Navigation Menu" class="md:hidden p-2 text-slate-700 hover:text-emerald-700 focus:outline-none">
+                <i data-lucide="menu" class="w-7 h-7"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3">
+            <a href="index.html" class="block font-bold text-emerald-700 py-2 border-b border-slate-100">Home</a>
+            <a href="services.html" class="block font-medium text-slate-700 hover:text-emerald-700 py-2 border-b border-slate-100">Services</a>
+            <a href="about.html" class="block font-medium text-slate-700 hover:text-emerald-700 py-2 border-b border-slate-100">About Us</a>
+            <a href="contact.html" class="block font-medium text-slate-700 hover:text-emerald-700 py-2 border-b border-slate-100">Contact & Booking</a>
+            <div class="pt-2 flex flex-col space-y-3">
+                <a href="tel:4165550198" class="flex items-center justify-center space-x-2 font-bold text-slate-900 py-2 border border-slate-200 rounded-xl">
+                    <i data-lucide="phone" class="w-4 h-4 text-emerald-700"></i>
+                    <span>Call (416) 555-0198</span>
+                </a>
+                <a href="contact.html" class="w-full bg-emerald-700 text-white font-bold text-center py-3 rounded-xl shadow-md">
+                    Get Free Quote
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-b from-emerald-50/60 via-slate-50 to-white py-16 lg:py-24 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- Hero Content -->
+                    <div class="lg:col-span-7 space-y-6 text-left">
+                        <div class="inline-flex items-center space-x-2 bg-emerald-100 text-emerald-800 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold border border-emerald-200 shadow-sm">
+                            <i data-lucide="sparkles" class="w-4 h-4 text-emerald-700"></i>
+                            <span>100% Non-Toxic & Pet-Safe Cleaning in Toronto & GTA</span>
+                        </div>
+
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-none sm:leading-tight">
+                            Toronto’s Top-Rated <span class="text-emerald-700 underline decoration-emerald-300 decoration-wavy decoration-2">Eco-Friendly</span> Home & Office Cleaning
+                        </h1>
+
+                        <p class="text-lg sm:text-xl text-slate-600 font-normal leading-relaxed max-w-2xl">
+                            Enjoy a healthier, pristine living space without harsh chemical residues. Our certified eco-cleaners are fully background-checked, insured, WSIB compliant, and backed by a 100% satisfaction guarantee.
+                        </p>
+
+                        <!-- Primary CTAs -->
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 pt-2">
+                            <a href="contact.html" class="inline-flex items-center justify-center space-x-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-base px-8 py-4 rounded-xl shadow-xl shadow-emerald-700/25 transition-all transform hover:-translate-y-0.5">
+                                <span>Book Free Instant Quote</span>
+                                <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                            </a>
+                            <a href="tel:4165550198" class="inline-flex items-center justify-center space-x-2 bg-white hover:bg-slate-100 text-slate-900 font-bold text-base px-6 py-4 rounded-xl border border-slate-200 shadow-sm transition-all">
+                                <i data-lucide="phone" class="w-5 h-5 text-emerald-700"></i>
+                                <span>(416) 555-0198</span>
+                            </a>
+                        </div>
+
+                        <!-- Trust Badges -->
+                        <div class="pt-6 border-t border-slate-200/80 grid grid-cols-2 sm:grid-cols-4 gap-4">
+                            <div class="flex items-center space-x-2 text-slate-700">
+                                <i data-lucide="shield-check" class="w-5 h-5 text-emerald-700 flex-shrink-0"></i>
+                                <span class="text-xs font-semibold">WSIB Compliant</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-slate-700">
+                                <i data-lucide="lock" class="w-5 h-5 text-emerald-700 flex-shrink-0"></i>
+                                <span class="text-xs font-semibold">$2M Liability Insured</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-slate-700">
+                                <i data-lucide="sprout" class="w-5 h-5 text-emerald-700 flex-shrink-0"></i>
+                                <span class="text-xs font-semibold">100% Eco Certified</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-slate-700">
+                                <i data-lucide="star" class="w-5 h-5 text-amber-500 fill-amber-500 flex-shrink-0"></i>
+                                <span class="text-xs font-semibold">4.9/5 (250+ Reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Visual / Mockup -->
+                    <div class="lg:col-span-5 relative">
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80" alt="Clean Bright Toronto Apartment Living Room" class="w-full h-[460px] object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
+                            
+                            <!-- Floating Badge -->
+                            <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-4 rounded-xl shadow-lg border border-slate-100 flex items-center space-x-4">
+                                <div class="w-12 h-12 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xl flex-shrink-0">
+                                    100%
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-900 text-sm">Satisfaction Guaranteed</h4>
+                                    <p class="text-xs text-slate-600">Not happy with any spot? We'll re-clean within 24 hours for free!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Bar -->
+        <section class="bg-slate-900 text-white py-10 border-y border-slate-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="space-y-1">
+                        <div class="text-3xl sm:text-4xl font-extrabold text-emerald-400">2,500+</div>
+                        <div class="text-xs sm:text-sm text-slate-300 font-medium">GTA Homes Cleaned</div>
+                    </div>
+                    <div class="space-y-1">
+                        <div class="text-3xl sm:text-4xl font-extrabold text-emerald-400">4.9 / 5.0</div>
+                        <div class="text-xs sm:text-sm text-slate-300 font-medium">Google Client Rating</div>
+                    </div>
+                    <div class="space-y-1">
+                        <div class="text-3xl sm:text-4xl font-extrabold text-emerald-400">0%</div>
+                        <div class="text-xs sm:text-sm text-slate-300 font-medium">Harsh Chemicals Used</div>
+                    </div>
+                    <div class="space-y-1">
+                        <div class="text-3xl sm:text-4xl font-extrabold text-emerald-400">100%</div>
+                        <div class="text-xs sm:text-sm text-slate-300 font-medium">Background Vetted Staff</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                    <span class="text-emerald-700 font-bold text-sm tracking-wider uppercase bg-emerald-50 px-3 py-1 rounded-full">Tailored Cleaning Packages</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Our Premium Eco-Cleaning Services</h2>
+                    <p class="text-slate-600 text-base sm:text-lg">Designed for busy Toronto homeowners, condo dwellers, and local business owners who value health, safety, and immaculate cleanliness.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Service Card 1 -->
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200/80 hover:border-emerald-500/50 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-14 h-14 rounded-xl bg-emerald-700 text-white flex items-center justify-center shadow-lg shadow-emerald-700/20 group-hover:scale-110 transition-transform">
+                                <i data-lucide="home" class="w-7 h-7"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-900">Residential Deep Clean</h3>
+                            <p class="text-sm text-slate-600 leading-relaxed">Comprehensive top-to-bottom cleaning for Toronto homes and condos. Covers kitchen sanitization, scrubbing bathrooms, dusting baseboards, and floor care.</p>
+                            <ul class="space-y-2 text-xs sm:text-sm text-slate-700 pt-2">
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>Non-toxic kitchen & bath degreasing</span></li>
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>HEPA allergen vacuuming</span></li>
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>Weekly, bi-weekly or monthly plans</span></li>
+                            </ul>
+                        </div>
+                        <div class="pt-6 mt-6 border-t border-slate-200">
+                            <a href="services.html" class="inline-flex items-center text-sm font-bold text-emerald-700 hover:text-emerald-800 group-hover:translate-x-1 transition-all">
+                                <span>Learn More & Pricing</span>
+                                <i data-lucide="chevron-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200/80 hover:border-emerald-500/50 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-14 h-14 rounded-xl bg-emerald-700 text-white flex items-center justify-center shadow-lg shadow-emerald-700/20 group-hover:scale-110 transition-transform">
+                                <i data-lucide="building-2" class="w-7 h-7"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-900">Commercial & Office Clean</h3>
+                            <p class="text-sm text-slate-600 leading-relaxed">Keep your Toronto workplace healthy and impressive. Customized after-hours cleaning for offices, boutique retail spaces, and commercial suites.</p>
+                            <ul class="space-y-2 text-xs sm:text-sm text-slate-700 pt-2">
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>High-touch point sanitization</span></li>
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>Flexible after-hours scheduling</span></li>
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>Full commercial liability coverage</span></li>
+                            </ul>
+                        </div>
+                        <div class="pt-6 mt-6 border-t border-slate-200">
+                            <a href="services.html" class="inline-flex items-center text-sm font-bold text-emerald-700 hover:text-emerald-800 group-hover:translate-x-1 transition-all">
+                                <span>Learn More & Pricing</span>
+                                <i data-lucide="chevron-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200/80 hover:border-emerald-500/50 hover:shadow-xl transition-all duration-300 group flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="w-14 h-14 rounded-xl bg-emerald-700 text-white flex items-center justify-center shadow-lg shadow-emerald-700/20 group-hover:scale-110 transition-transform">
+                                <i data-lucide="truck" class="w-7 h-7"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-900">Move-In / Move-Out Clean</h3>
+                            <p class="text-sm text-slate-600 leading-relaxed">Transition smoothly with an intensive deep clean. Essential for Toronto tenants aiming for full security deposit refunds and landlords preparing listings.</p>
+                            <ul class="space-y-2 text-xs sm:text-sm text-slate-700 pt-2">
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>Inside oven & fridge deep clean</span></li>
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>Inside cabinet wipe downs</span></li>
+                                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-700"></i><span>Deposit Refund Guarantee</span></li>
+                            </ul>
+                        </div>
+                        <div class="pt-6 mt-6 border-t border-slate-200">
+                            <a href="services.html" class="inline-flex items-center text-sm font-bold text-emerald-700 hover:text-emerald-800 group-hover:translate-x-1 transition-all">
+                                <span>Learn More & Pricing</span>
+                                <i data-lucide="chevron-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <a href="services.html" class="inline-flex items-center space-x-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm px-8 py-3.5 rounded-xl transition-all">
+                        <span>Explore Full Service Checklist</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Pillars -->
+        <section class="py-20 bg-slate-50 border-t border-slate-200/80">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-12 gap-12 items-center">
+                    
+                    <div class="lg:col-span-5 space-y-6">
+                        <span class="text-emerald-700 font-bold text-sm tracking-wider uppercase bg-emerald-100 px-3 py-1 rounded-full">The EcoClean Advantage</span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Why Greater Toronto Area Prefers Us</h2>
+                        <p class="text-slate-600 text-base leading-relaxed">
+                            We don't just clean homes — we create safe, healthy sanctuaries for you, your children, and your pets. Experience the difference of professional cleaners who care about your health and environmental footprint.
+                        </p>
+                        <div class="pt-2">
+                            <a href="about.html" class="inline-flex items-center space-x-2 text-emerald-700 font-bold hover:text-emerald-800">
+                                <span>Read Our Full Story & Values</span>
+                                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-3">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                                <i data-lucide="leaf" class="w-5 h-5"></i>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-lg">Eco-Certified Solutions</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Plant-based, non-toxic cleaning agents that eliminate 99.9% of bacteria without volatile organic compounds (VOCs).</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-3">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                                <i data-lucide="user-check" class="w-5 h-5"></i>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-lg">Insured & Vetted Staff</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Every cleaner undergoes background checks, rigorous training, and is protected under WSIB & $2M insurance.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-3">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                                <i data-lucide="badge-dollar-sign" class="w-5 h-5"></i>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-lg">Transparent Pricing</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">No hidden fees or unexpected upsells. Clear flat rates and hourly quotes provided up front in Canadian dollars.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-3">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                                <i data-lucide="rotate-ccw" class="w-5 h-5"></i>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-lg">24-Hour Re-Clean Guarantee</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">If you're ever dissatisfied with any area, notify us within 24 hours and we'll re-clean it promptly at no charge.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                    <span class="text-emerald-700 font-bold text-sm tracking-wider uppercase bg-emerald-50 px-3 py-1 rounded-full">Seamless 3-Step Experience</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">How Booking Works</h2>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 text-center relative">
+                    <!-- Step 1 -->
+                    <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 space-y-4 relative">
+                        <div class="w-12 h-12 bg-emerald-700 text-white font-extrabold text-lg rounded-full flex items-center justify-center mx-auto shadow-md">1</div>
+                        <h3 class="text-xl font-bold text-slate-900">Request Free Estimate</h3>
+                        <p class="text-sm text-slate-600">Fill out our 60-second online quote form or call us directly. Select your home size and preferred eco-cleaning options.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 space-y-4 relative">
+                        <div class="w-12 h-12 bg-emerald-700 text-white font-extrabold text-lg rounded-full flex items-center justify-center mx-auto shadow-md">2</div>
+                        <h3 class="text-xl font-bold text-slate-900">Eco-Cleaners Arrive</h3>
+                        <p class="text-sm text-slate-600">Our uniformed, background-checked cleaners show up on time with HEPA vacuums and 100% non-toxic supplies.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 space-y-4 relative">
+                        <div class="w-12 h-12 bg-emerald-700 text-white font-extrabold text-lg rounded-full flex items-center justify-center mx-auto shadow-md">3</div>
+                        <h3 class="text-xl font-bold text-slate-900">Enjoy Fresh Clean Home</h3>
+                        <p class="text-sm text-slate-600">Step into a sparkling clean home smelling naturally fresh, free from harsh chemical odors. Guaranteed satisfaction!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-20 bg-slate-900 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                    <span class="text-emerald-400 font-bold text-sm tracking-wider uppercase bg-emerald-500/20 px-3 py-1 rounded-full border border-emerald-500/30">Local Toronto Reviews</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Loved by Homeowners Across GTA</h2>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Review 1 -->
+                    <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 space-y-4 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="flex text-amber-400 space-x-1">
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                            </div>
+                            <p class="text-slate-300 text-sm leading-relaxed italic">"With two young kids and a golden retriever in our High Park home, non-toxic products were our top priority. Toronto EcoClean delivered beyond expectations! Smells so clean without chemical fumes."</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-700 flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center">SL</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white">Sarah L.</h4>
+                                <p class="text-xs text-slate-400">High Park, Toronto</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 space-y-4 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="flex text-amber-400 space-x-1">
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                            </div>
+                            <p class="text-slate-300 text-sm leading-relaxed italic">"Hired them for a move-out clean on our Liberty Village condo. Got 100% of our deposit back without a single complaint from the landlord. Professional, punctual, and worth every dollar!"</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-700 flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center">MK</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white">Marcus K.</h4>
+                                <p class="text-xs text-slate-400">Liberty Village, Toronto</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 space-y-4 flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="flex text-amber-400 space-x-1">
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                                <i data-lucide="star" class="w-5 h-5 fill-amber-400"></i>
+                            </div>
+                            <p class="text-slate-300 text-sm leading-relaxed italic">"We've had bi-weekly office cleaning for our Yorkville boutique for over a year. The staff is trustworthy, attentive to details, and flexible with our evening schedule."</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-700 flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center">EC</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white">Elena C.</h4>
+                                <p class="text-xs text-slate-400">Yorkville Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secondary CTA Banner -->
+        <section class="py-16 bg-gradient-to-r from-emerald-800 to-emerald-900 text-white relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 relative z-10">
+                <span class="inline-block bg-emerald-500/30 text-emerald-200 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider border border-emerald-400/30">Limited Time Offer</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight">Ready for a Fresher, Healthier Toronto Home?</h2>
+                <p class="text-emerald-100 max-w-2xl mx-auto text-base sm:text-lg">Get $25 CAD off your first eco-friendly deep clean today. Claim your instant estimate in under 60 seconds.</p>
+                <div class="pt-4 flex flex-col sm:flex-row justify-center items-center space-y-3 sm:space-y-0 sm:space-x-4">
+                    <a href="contact.html" class="bg-white text-emerald-900 hover:bg-emerald-50 font-extrabold text-base px-8 py-4 rounded-xl shadow-xl transition-all">
+                        Claim Your $25 Off Quote
+                    </a>
+                    <a href="tel:4165550198" class="text-white border border-emerald-400/50 hover:bg-emerald-700/50 font-bold text-base px-8 py-4 rounded-xl transition-all">
+                        Call (416) 555-0198
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 text-sm py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <!-- Brand Info -->
+                <div class="lg:col-span-2 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-700 text-white flex items-center justify-center font-bold">
+                            <i data-lucide="leaf" class="w-5 h-5"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white tracking-tight">Toronto EcoClean</span>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed max-w-sm">
+                        Toronto's trusted eco-friendly cleaning service. Delivering 100% non-toxic deep cleans for residential and commercial spaces across the Greater Toronto Area.
+                    </p>
+                    <div class="flex items-center space-x-3 text-slate-300 text-xs font-medium pt-2">
+                        <span class="bg-slate-800 px-2.5 py-1 rounded border border-slate-700">WSIB Compliant</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded border border-slate-700">$2M Liability Insured</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Quick Links</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="index.html" class="hover:text-emerald-400 transition-colors">Home</a></li>
+                        <li><a href="services.html" class="hover:text-emerald-400 transition-colors">Cleaning Services</a></li>
+                        <li><a href="about.html" class="hover:text-emerald-400 transition-colors">About Toronto EcoClean</a></li>
+                        <li><a href="contact.html" class="hover:text-emerald-400 transition-colors">Get Free Quote</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services List -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Services</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="services.html" class="hover:text-emerald-400 transition-colors">Residential Deep Clean</a></li>
+                        <li><a href="services.html" class="hover:text-emerald-400 transition-colors">Commercial & Office</a></li>
+                        <li><a href="services.html" class="hover:text-emerald-400 transition-colors">Move-In / Move-Out Clean</a></li>
+                        <li><a href="services.html" class="hover:text-emerald-400 transition-colors">Eco Appliance Sanitization</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact & Areas -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Toronto Dispatch</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li class="flex items-start space-x-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400 mt-1 flex-shrink-0"></i>
+                            <span>100 Queen St W, Toronto, ON M5H 2N2</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="phone" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+                            <a href="tel:4165550198" class="hover:text-emerald-400">(416) 555-0198</a>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="mail" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+                            <span>hello@torontoecoclean.ca</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service Areas Tag Cloud -->
+            <div class="pt-8 border-t border-slate-800 text-xs">
+                <p class="text-slate-400 font-bold mb-2">Greater Toronto Area (GTA) Service Areas:</p>
+                <p class="text-slate-500 leading-relaxed">
+                    Downtown Toronto • Yorkville • High Park • Liberty Village • North York • Etobicoke • Scarborough • Mississauga • Vaughan • Markham • Richmond Hill • East York • The Beaches
+                </p>
+            </div>
+
+            <!-- Copyright -->
+            <div class="pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 space-y-3 sm:space-y-0">
+                <p>© 2026 Toronto EcoClean Solutions. All Rights Reserved. Built for Toronto, ON, Canada.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-slate-300">Privacy Policy</a>
+                    <a href="#" class="hover:text-slate-300">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shared Main JS Script -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

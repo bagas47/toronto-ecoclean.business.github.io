@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-CA" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us & Book Free Quote | Toronto EcoClean Solutions</title>
+    <meta name="description" content="Request an instant eco-cleaning quote in Toronto & GTA. Instant price estimate, Canadian phone support, flexible scheduling & fast response within 2 hours.">
+    <meta name="keywords" content="book house cleaning Toronto, quote eco clean GTA, Toronto cleaning service phone, contact eco cleaners Ontario">
+
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="Book Free Eco-Cleaning Quote | Toronto EcoClean Solutions">
+    <meta property="og:description" content="Instant price estimator for home & commercial eco-cleaning in Greater Toronto Area. WSIB insured & non-toxic.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:url" content="https://torontoecoclean.ca/contact.html">
+
+    <!-- Fonts & Tailwind CSS CDN v3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        emerald: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            300: '#86efac',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact & Booking - Toronto EcoClean Solutions",
+      "url": "https://torontoecoclean.ca/contact.html",
+      "mainEntity": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Toronto EcoClean Solutions",
+        "telephone": "+1-416-555-0198",
+        "email": "hello@torontoecoclean.ca",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "100 Queen St W",
+          "addressLocality": "Toronto",
+          "addressRegion": "ON",
+          "postalCode": "M5H 2N2",
+          "addressCountry": "CA"
+        }
+      }
+    }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-slate-900 text-slate-200 text-xs sm:text-sm font-medium py-2.5 px-4 text-center border-b border-emerald-500/20">
+        <div class="max-w-7xl mx-auto flex items-center justify-center space-x-2">
+            <span class="inline-block bg-emerald-500/20 text-emerald-400 font-bold px-2 py-0.5 rounded text-xs uppercase tracking-wider">Special Offer</span>
+            <span>🇨🇦 Greater Toronto Area Resident Discount: Save <strong>$25 CAD</strong> on your first deep clean! Use code <strong class="text-emerald-400">ECO25</strong></span>
+        </div>
+    </div>
+
+    <!-- Sticky Header Navigation -->
+    <header id="navbar" class="sticky top-0 z-40 bg-white transition-all duration-300 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3 group">
+                <div class="w-11 h-11 rounded-xl bg-emerald-700 text-white flex items-center justify-center shadow-md shadow-emerald-700/20 group-hover:bg-emerald-800 transition-colors">
+                    <i data-lucide="leaf" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold text-slate-900 tracking-tight block leading-none">Toronto EcoClean</span>
+                    <span class="text-xs font-semibold text-emerald-700 tracking-wider uppercase">Solutions</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+                <a href="index.html" class="hover:text-emerald-700 transition-colors py-1">Home</a>
+                <a href="services.html" class="hover:text-emerald-700 transition-colors py-1">Services</a>
+                <a href="about.html" class="hover:text-emerald-700 transition-colors py-1">About Us</a>
+                <a href="contact.html" class="text-emerald-700 border-b-2 border-emerald-700 py-1">Contact & Booking</a>
+            </nav>
+
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="tel:4165550198" class="flex items-center space-x-2 text-sm font-bold text-slate-900 hover:text-emerald-700">
+                    <div class="w-8 h-8 rounded-full bg-emerald-50 text-emerald-700 flex items-center justify-center">
+                        <i data-lucide="phone" class="w-4 h-4"></i>
+                    </div>
+                    <span>(416) 555-0198</span>
+                </a>
+                <a href="contact.html" class="bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-sm px-5 py-2.5 rounded-xl shadow-lg shadow-emerald-700/25 transition-all">
+                    Get Free Quote
+                </a>
+            </div>
+
+            <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-700 hover:text-emerald-700">
+                <i data-lucide="menu" class="w-7 h-7"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3">
+            <a href="index.html" class="block font-medium text-slate-700 py-2 border-b border-slate-100">Home</a>
+            <a href="services.html" class="block font-medium text-slate-700 py-2 border-b border-slate-100">Services</a>
+            <a href="about.html" class="block font-medium text-slate-700 py-2 border-b border-slate-100">About Us</a>
+            <a href="contact.html" class="block font-bold text-emerald-700 py-2 border-b border-slate-100">Contact & Booking</a>
+            <div class="pt-2 flex flex-col space-y-3">
+                <a href="tel:4165550198" class="flex items-center justify-center space-x-2 font-bold text-slate-900 py-2 border border-slate-200 rounded-xl">
+                    <i data-lucide="phone" class="w-4 h-4 text-emerald-700"></i>
+                    <span>Call (416) 555-0198</span>
+                </a>
+                <a href="contact.html" class="w-full bg-emerald-700 text-white font-bold text-center py-3 rounded-xl shadow-md">
+                    Get Free Quote
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Header -->
+        <section class="bg-slate-900 text-white py-16 lg:py-20 relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4 relative z-10">
+                <span class="inline-block bg-emerald-500/20 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider border border-emerald-500/30">Instant 60-Second Quote</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">Contact & Free Quote Booking</h1>
+                <p class="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg">Fill out our interactive form below for an instant price estimate. Our Toronto dispatch team guarantees a response within 2 hours!</p>
+            </div>
+        </section>
+
+        <!-- Main Form & Contact Info Grid -->
+        <section class="py-16 bg-slate-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-12 gap-12">
+                    
+                    <!-- Left: Interactive Booking Form (7 Cols) -->
+                    <div class="lg:col-span-7 bg-white p-8 sm:p-10 rounded-3xl shadow-xl border border-slate-200/80 space-y-6">
+                        <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+                            <div>
+                                <h2 class="text-2xl font-extrabold text-slate-900">Request Your Eco-Clean</h2>
+                                <p class="text-xs text-slate-500">No obligation • Instant CAD price calculation</p>
+                            </div>
+                            <div class="hidden sm:block text-right">
+                                <span class="text-xs text-slate-400 uppercase font-bold block">Estimated Price</span>
+                                <span id="estimated-price" class="text-2xl font-extrabold text-emerald-700">$120 CAD</span>
+                            </div>
+                        </div>
+
+                        <form id="booking-form" class="space-y-5">
+                            <!-- Personal Info -->
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="full-name" class="block text-xs font-bold text-slate-700 uppercase mb-1">Full Name *</label>
+                                    <input type="text" id="full-name" required placeholder="e.g. Emily Watson" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:border-transparent text-sm">
+                                </div>
+                                <div>
+                                    <label for="email-input" class="block text-xs font-bold text-slate-700 uppercase mb-1">Email Address *</label>
+                                    <input type="email" id="email-input" required placeholder="emily@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:border-transparent text-sm">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="phone-input" class="block text-xs font-bold text-slate-700 uppercase mb-1">Phone Number (Canada) *</label>
+                                    <input type="tel" id="phone-input" required placeholder="(416) 123-4567" maxlength="14" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:border-transparent text-sm">
+                                </div>
+                                <div>
+                                    <label for="service-type" class="block text-xs font-bold text-slate-700 uppercase mb-1">Service Required *</label>
+                                    <select id="service-type" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:border-transparent text-sm bg-white">
+                                        <option value="residential">Residential Deep Clean</option>
+                                        <option value="commercial">Commercial & Office Cleaning</option>
+                                        <option value="move-in-out">Move-In / Move-Out Clean</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Property Details -->
+                            <div class="grid sm:grid-cols-3 gap-4">
+                                <div>
+                                    <label for="bedrooms" class="block text-xs font-bold text-slate-700 uppercase mb-1">Bedrooms</label>
+                                    <select id="bedrooms" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-sm bg-white">
+                                        <option value="1">1 Bedroom / Studio</option>
+                                        <option value="2" selected>2 Bedrooms</option>
+                                        <option value="3">3 Bedrooms</option>
+                                        <option value="4">4+ Bedrooms</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="bathrooms" class="block text-xs font-bold text-slate-700 uppercase mb-1">Bathrooms</label>
+                                    <select id="bathrooms" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-sm bg-white">
+                                        <option value="1">1 Bathroom</option>
+                                        <option value="2" selected>2 Bathrooms</option>
+                                        <option value="3">3 Bathrooms</option>
+                                        <option value="4">4+ Bathrooms</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="frequency" class="block text-xs font-bold text-slate-700 uppercase mb-1">Frequency</label>
+                                    <select id="frequency" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-sm bg-white">
+                                        <option value="one-time">One-Time Clean</option>
+                                        <option value="weekly">Weekly (20% Off)</option>
+                                        <option value="bi-weekly" selected>Bi-Weekly (15% Off)</option>
+                                        <option value="monthly">Monthly (10% Off)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Date & Time -->
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="preferred-date" class="block text-xs font-bold text-slate-700 uppercase mb-1">Preferred Date</label>
+                                    <input type="date" id="preferred-date" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-sm bg-white">
+                                </div>
+                                <div>
+                                    <label for="preferred-time" class="block text-xs font-bold text-slate-700 uppercase mb-1">Preferred Time Window</label>
+                                    <select id="preferred-time" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-sm bg-white">
+                                        <option value="morning">Morning (8:00 AM - 12:00 PM)</option>
+                                        <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
+                                        <option value="evening">Evening (4:00 PM - 7:00 PM)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Special Notes -->
+                            <div>
+                                <label for="notes" class="block text-xs font-bold text-slate-700 uppercase mb-1">Special Notes / Toronto Neighborhood</label>
+                                <textarea id="notes" rows="3" placeholder="e.g. High Park condo, key in lockbox, pet dog in bedroom..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 text-sm"></textarea>
+                            </div>
+
+                            <!-- Live Price Mobile Bar -->
+                            <div class="sm:hidden bg-emerald-50 p-4 rounded-xl border border-emerald-200 flex justify-between items-center">
+                                <span class="text-xs font-bold text-slate-700 uppercase">Estimated Price:</span>
+                                <span id="estimated-price-mobile" class="text-xl font-extrabold text-emerald-700">$120 CAD</span>
+                            </div>
+
+                            <!-- Promo Code Banner Callout -->
+                            <div class="bg-slate-100 p-3 rounded-xl text-xs text-slate-600 flex items-center space-x-2">
+                                <i data-lucide="tag" class="w-4 h-4 text-emerald-700 flex-shrink-0"></i>
+                                <span>Code <strong class="text-slate-900">ECO25</strong> automatically applied for $25 CAD off your first clean!</span>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold text-base py-4 rounded-xl shadow-xl shadow-emerald-700/25 transition-all transform hover:-translate-y-0.5">
+                                Submit Quote Request & Confirm Booking
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Right: Business Info & Map Embed (5 Cols) -->
+                    <div class="lg:col-span-5 space-y-8">
+                        
+                        <!-- Contact Card -->
+                        <div class="bg-white p-8 rounded-3xl shadow-lg border border-slate-200/80 space-y-6">
+                            <h3 class="text-xl font-extrabold text-slate-900 border-b border-slate-100 pb-3">Toronto Dispatch Center</h3>
+                            
+                            <div class="space-y-4 text-sm">
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center flex-shrink-0">
+                                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900">Headquarters Address</h4>
+                                        <p class="text-slate-600">100 Queen St W, Toronto, ON M5H 2N2, Canada</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center flex-shrink-0">
+                                        <i data-lucide="phone" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900">Phone Support (416 Area)</h4>
+                                        <a href="tel:4165550198" class="text-emerald-700 font-bold hover:underline">(416) 555-0198</a>
+                                        <p class="text-xs text-slate-400">Direct booking & dispatch line</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center flex-shrink-0">
+                                        <i data-lucide="mail" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900">Email Support</h4>
+                                        <p class="text-slate-600">hello@torontoecoclean.ca</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center flex-shrink-0">
+                                        <i data-lucide="clock" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-900">Toronto Hours (EST)</h4>
+                                        <p class="text-slate-600 text-xs">Mon - Fri: 8:00 AM - 7:00 PM</p>
+                                        <p class="text-slate-600 text-xs">Saturday: 9:00 AM - 5:00 PM</p>
+                                        <p class="text-slate-400 text-xs">Sunday: Closed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Google Maps Embed -->
+                        <div class="bg-white p-4 rounded-3xl shadow-lg border border-slate-200/80 space-y-3">
+                            <h4 class="font-bold text-slate-900 text-sm px-2">Serving All Greater Toronto Area (GTA)</h4>
+                            <div class="rounded-2xl overflow-hidden h-64 border border-slate-200">
+                                <iframe 
+                                    title="Toronto EcoClean Service Map"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184784.87247343355!2d-79.51814144365778!3d43.71840381677334!2m3!1f0!0!f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca" 
+                                    width="100%" 
+                                    height="100%" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                            <div class="flex flex-wrap gap-1.5 p-2 text-xs">
+                                <span class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md">Toronto</span>
+                                <span class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md">Mississauga</span>
+                                <span class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md">Vaughan</span>
+                                <span class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md">Etobicoke</span>
+                                <span class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md">North York</span>
+                                <span class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md">Scarborough</span>
+                                <span class="bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md">Markham</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Success Modal Popup -->
+    <div id="success-modal" class="fixed inset-0 z-50 bg-slate-900/70 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-8 text-center space-y-6 shadow-2xl border border-slate-100 transform transition-all">
+            <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 mx-auto flex items-center justify-center">
+                <i data-lucide="check-circle" class="w-10 h-10"></i>
+            </div>
+            
+            <div class="space-y-2">
+                <h3 id="modal-client-name" class="text-2xl font-extrabold text-slate-900">Thank You!</h3>
+                <p id="modal-message" class="text-slate-600 text-sm leading-relaxed">
+                    We have received your eco-cleaning request for Greater Toronto Area. Our team will contact you within 2 hours with your final schedule and quote!
+                </p>
+            </div>
+
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs text-slate-500 space-y-1">
+                <div class="font-bold text-slate-700">Need Immediate Help?</div>
+                <div>Call our Toronto dispatch line: <a href="tel:4165550198" class="text-emerald-700 font-bold underline">(416) 555-0198</a></div>
+            </div>
+
+            <button id="close-modal-btn" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3.5 rounded-xl transition-colors">
+                Back to Website
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 text-sm py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <div class="lg:col-span-2 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-700 text-white flex items-center justify-center font-bold">
+                            <i data-lucide="leaf" class="w-5 h-5"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white tracking-tight">Toronto EcoClean</span>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed max-w-sm">
+                        Toronto's trusted eco-friendly cleaning service. Delivering 100% non-toxic deep cleans for residential and commercial spaces across the Greater Toronto Area.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Quick Links</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="index.html" class="hover:text-emerald-400">Home</a></li>
+                        <li><a href="services.html" class="hover:text-emerald-400">Cleaning Services</a></li>
+                        <li><a href="about.html" class="hover:text-emerald-400">About Toronto EcoClean</a></li>
+                        <li><a href="contact.html" class="hover:text-emerald-400">Get Free Quote</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Services</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li><a href="services.html" class="hover:text-emerald-400">Residential Deep Clean</a></li>
+                        <li><a href="services.html" class="hover:text-emerald-400">Commercial & Office</a></li>
+                        <li><a href="services.html" class="hover:text-emerald-400">Move-In / Move-Out Clean</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Toronto Dispatch</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li class="flex items-start space-x-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400 mt-1 flex-shrink-0"></i>
+                            <span>100 Queen St W, Toronto, ON M5H 2N2</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="phone" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+                            <a href="tel:4165550198" class="hover:text-emerald-400">(416) 555-0198</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+                <p>© 2026 Toronto EcoClean Solutions. All Rights Reserved. Built for Toronto, ON, Canada.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
